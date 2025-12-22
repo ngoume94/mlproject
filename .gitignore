@@ -134,8 +134,21 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Catboost logs
+catboost_info/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+venv/
+
+# Dossier de données et modèles générés
+artifacts/
+
 # Environments
-.artefacts
 .env
 .envrc
 .venv
